@@ -30,13 +30,19 @@
 
 /* Form Container */
 .bookingForm {
-   background: rgba(255, 255, 255, 0.95);
+   background: rgba(255, 255, 255, 0.9);
    padding: 2rem;
    border-radius: 8px;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    width: 90%;
    max-width: 800px;
    backdrop-filter: blur(10px);
+}
+
+.bookingForm h2{
+   text-align: center;
+   font-size: 2.5rem;
+   margin-bottom: 1rem
 }
 
 .inputGroup {
@@ -97,6 +103,7 @@
    align-items: center;
    gap: 0.5rem;
    cursor: pointer;
+   font-weight: 700;
 }
 
 .buttonGroup {

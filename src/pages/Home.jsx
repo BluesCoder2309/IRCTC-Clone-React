@@ -8,10 +8,13 @@ import {
 } from "react-icons/fa";
 import { BiSolidCategory } from "react-icons/bi";
 import styles from "../styles/Home.module.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Home() {
    return (
       <>
+         <Navbar />
          {/* Banner Img */}
          <div className={styles.background}>
             <img
@@ -123,6 +126,7 @@ function Home() {
                </form>
             </div>
          </div>
+         <Footer />
       </>
    );
 }
